@@ -1,0 +1,23 @@
+This is a small script for data visualization of fragment analysis data 
+generated from Applied Biosystems 3130/3130xl Data Collection Software v3.0
+on the Applied Biosystems 3130/3130xl Genetic Analyzer
+
+This script can be used for quick inspection prior deeper processing
+
+* Python version
+- Python 3.10.12
+
+* Requirements
+- matplotlib==3.7.1
+- numpy==1.21.5
+- PyQt5==5.15.6
+
+#+begin_src bash :results output
+pip install -r requirements.txt
+#+end_src
+
+* Usage
+Quick start on example data
+#+begin_src bash :results output
+python3  CapillaryViewer.py fsa_example/*fsa
+#+end_src
